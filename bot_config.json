@@ -1,0 +1,419 @@
+{
+  "WINDOW_SUBSTRING": "Lineage2M",
+  "HEAL_KEY": "1",
+  "HEAL_THRESHOLD": 40.0,
+  "CAPTURE_INTERVAL": 3.0,
+  "MOTION_THRESHOLD": 10000,
+  "MISSION_DIFF_THRESHOLD": 20,
+  "CLICK_OFFSET_X": 0,
+  "CLICK_OFFSET_Y": 0,
+  "USE_REAL_MOUSE": true,
+  "SAVED_REGIONS": {
+    "quest_region": {
+      "x": 1437,
+      "y": 125,
+      "w": 323,
+      "h": 256
+    },
+    "jump_button_region": {
+      "x": 1722,
+      "y": 83,
+      "w": 49,
+      "h": 59,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "whole_region": {
+      "x": 0,
+      "y": 40,
+      "w": 1863,
+      "h": 1000
+    },
+    "map_region": {
+      "x": 35,
+      "y": 122,
+      "w": 206,
+      "h": 134
+    },
+    "left_confirm_region": {
+      "x": 59,
+      "y": 332,
+      "w": 300,
+      "h": 145
+    },
+    "tool_bar_region": {
+      "x": 1354,
+      "y": 42,
+      "w": 480,
+      "h": 75
+    },
+    "character_region": {
+      "x": 796,
+      "y": 508,
+      "w": 301,
+      "h": 434
+    },
+    "hp_bar_main_region": {
+      "x": 34,
+      "y": 14,
+      "w": 198,
+      "h": 17,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "nav_bar_region": {
+      "x": 1773,
+      "y": 119,
+      "w": 48,
+      "h": 256
+    },
+    "hp_bar_sleep_region": {
+      "x": 44,
+      "y": 58,
+      "w": 274,
+      "h": 23
+    },
+    "sleep_show_region": {
+      "x": 795,
+      "y": 360,
+      "w": 320,
+      "h": 282,
+      "_coord": "rel",
+      "_ref_width": 1920,
+      "_ref_height": 992
+    },
+    "level_camera_region": {
+      "x": 20,
+      "y": 986,
+      "w": 268,
+      "h": 43
+    },
+    "coin_region": {
+      "x": 858,
+      "y": 50,
+      "w": 234,
+      "h": 50
+    },
+    "address_deploy_region": {
+      "x": 38,
+      "y": 122,
+      "w": 203,
+      "h": 275
+    },
+    "guide_button_region": {
+      "x": 1768,
+      "y": 12,
+      "w": 42,
+      "h": 40,
+      "_coord": "rel",
+      "_ref_width": 1920,
+      "_ref_height": 992
+    },
+    "guide_tab_region": {
+      "x": 659,
+      "y": 158,
+      "w": 218,
+      "h": 54
+    },
+    "blood_bottle_region": {
+      "x": 1084,
+      "y": 865,
+      "w": 84,
+      "h": 81,
+      "_coord": "rel",
+      "_ref_width": 1920,
+      "_ref_height": 992
+    },
+    "controller_region": {
+      "x": 1460,
+      "y": 649,
+      "w": 376,
+      "h": 235
+    },
+    "sales_address_region": {
+      "x": 248,
+      "y": 157,
+      "w": 29,
+      "h": 33,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "general_mer_region": {
+      "x": 38,
+      "y": 80,
+      "w": 196,
+      "h": 46,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "blood_buy_part_region": {
+      "x": 65,
+      "y": 297,
+      "w": 94,
+      "h": 93
+    },
+    "add_blood_region": {
+      "x": 686,
+      "y": 938,
+      "w": 102,
+      "h": 73
+    },
+    "weight_percent_region": {
+      "x": 1180,
+      "y": 656,
+      "w": 82,
+      "h": 31,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "blood_buy_confirm_region": {
+      "x": 1612,
+      "y": 863,
+      "w": 203,
+      "h": 70,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "out_button_region": {
+      "x": 1755,
+      "y": 12,
+      "w": 63,
+      "h": 66,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "auto_trade_region": {
+      "x": 61,
+      "y": 671,
+      "w": 304,
+      "h": 79,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "middle_accept_region": {
+      "x": 940,
+      "y": 708,
+      "w": 210,
+      "h": 52
+    },
+    "left_confirm_region1": {
+      "x": 60,
+      "y": 396,
+      "w": 141,
+      "h": 43
+    },
+    "middle_claim_reward_region": {
+      "x": 822,
+      "y": 722,
+      "w": 217,
+      "h": 51
+    },
+    "first_quest_region": {
+      "x": 1436,
+      "y": 81,
+      "w": 280,
+      "h": 70,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "skip_button_region": {
+      "x": 1633,
+      "y": 819,
+      "w": 191,
+      "h": 55
+    },
+    "left_confirm_region2": {
+      "x": 134,
+      "y": 376,
+      "w": 146,
+      "h": 50
+    },
+    "check_death_region": {
+      "x": 736,
+      "y": 862,
+      "w": 392,
+      "h": 76
+    },
+    "jump_village_region": {
+      "x": 802,
+      "y": 876,
+      "w": 72,
+      "h": 66,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "purchase_confirm_before_vil_region": {
+      "x": 1612,
+      "y": 865,
+      "w": 204,
+      "h": 68,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "purchase_confirm_at_vil_region": {
+      "x": 939,
+      "y": 628,
+      "w": 275,
+      "h": 65,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "middle_confirm_region": {
+      "x": 834,
+      "y": 595,
+      "w": 206,
+      "h": 49,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "teleport_confirm_region": {
+      "x": 940,
+      "y": 596,
+      "w": 201,
+      "h": 50,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "jump_village_count": {
+      "x": 1762,
+      "y": 872,
+      "w": 64,
+      "h": 65,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "nav_button_region": {
+      "x": 1755,
+      "y": 5,
+      "w": 92,
+      "h": 55,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "daily_button_region": {
+      "x": 1517,
+      "y": 370,
+      "w": 43,
+      "h": 64,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "daily_claim_benefit_region": {
+      "x": 1255,
+      "y": 480,
+      "w": 326,
+      "h": 71,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "mail_button_region": {
+      "x": 1510,
+      "y": 567,
+      "w": 54,
+      "h": 52,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "claim_all_button_region": {
+      "x": 1557,
+      "y": 866,
+      "w": 264,
+      "h": 68,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "resurrect_at_village_region": {
+      "x": 768,
+      "y": 782,
+      "w": 385,
+      "h": 78,
+      "_coord": "rel",
+      "_ref_width": 1920,
+      "_ref_height": 992
+    },
+    "max_blood_region": {
+      "x": 1081,
+      "y": 865,
+      "w": 125,
+      "h": 72,
+      "_coord": "rel",
+      "_ref_width": 1920,
+      "_ref_height": 992
+    },
+    "blood_bottle_count_region": {
+      "x": 1024,
+      "y": 872,
+      "w": 67,
+      "h": 69,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "village_list_region": {
+      "x": 8,
+      "y": 331,
+      "w": 442,
+      "h": 615,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "gludin_village_region": {
+      "x": 64,
+      "y": 315,
+      "w": 388,
+      "h": 89,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "claim_reward_region": {
+      "x": 828,
+      "y": 644,
+      "w": 206,
+      "h": 44,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "see_all_button_region": {
+      "x": 756,
+      "y": 868,
+      "w": 349,
+      "h": 68,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    },
+    "teleport_village_region": {
+      "x": 1439,
+      "y": 633,
+      "w": 358,
+      "h": 53,
+      "_coord": "rel",
+      "_ref_width": 1864,
+      "_ref_height": 992
+    }
+  },
+  "MOTION_RATIO": 0.3
+}

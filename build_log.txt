@@ -1,0 +1,62 @@
+36 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+161 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.9
+162 INFO: Python: 3.13.9
+179 INFO: Platform: Windows-11-10.0.26200-SP0
+179 INFO: Python environment: C:\Users\Kristoff\AppData\Local\Programs\Python\Python313
+181 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\scripts\\pyinstaller.exe',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\DLLs',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\Lib',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\Kristoff\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor',
+ 'f:\\common\\bot_11.13']
+539 INFO: Appending 'datas' from .spec
+541 INFO: checking Analysis
+609 INFO: checking PYZ
+660 INFO: checking PKG
+694 INFO: Bootloader C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+694 INFO: checking EXE
+694 INFO: Building EXE because EXE-00.toc is non existent
+694 INFO: Building EXE from EXE-00.toc
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\scripts\pyinstaller.exe\__main__.py", line 6, in <module>
+    sys.exit(_console_script_run())
+             ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\__main__.py", line 231, in _console_script_run
+    run()
+    ~~~^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\__main__.py", line 215, in run
+    run_build(pyi_config, spec_file, **vars(args))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\__main__.py", line 70, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\building\build_main.py", line 1272, in main
+    build(specfile, distpath, workpath, clean_build)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\building\build_main.py", line 1210, in build
+    exec(code, spec_namespace)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "BotControl.spec", line 50, in <module>
+    exe = EXE(
+        pyz,
+    ...<17 lines>...
+        icon='icon.png',
+    )
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\building\api.py", line 675, in __init__
+    self.__postinit__()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\building\datastruct.py", line 184, in __postinit__
+    self.assemble()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Kristoff\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\building\api.py", line 769, in assemble
+    os.remove(self.name)
+    ~~~~~~~~~^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'f:\\common\\bot_11.13\\dist\\BotControl.exe'
